@@ -47,11 +47,7 @@ Code: **CNN.py**, **LSTM.py**
 Formalize the sentiment factor as a deviation from frictionless pricing kernel. Then conduct a horse race with standard factors and show the identified
 sentiment factor is useful
 
-$$
-
-E_t[R_t] = r-\lambda +\eta\sigma_x\rho_x +S_t\frac{v'[S_t]}{v[S_t]}\frac{\rho}{1-\rho}(\rho_x\sigma_x-\rho_w\sigma_w)
-
-$$
+$E_t[R_t] = r-\lambda +\eta\sigma_x\rho_x +S_t\frac{v'[S_t]}{v[S_t]}\frac{\rho}{1-\rho}(\rho_x\sigma_x-\rho_w\sigma_w)$
 
 
 
